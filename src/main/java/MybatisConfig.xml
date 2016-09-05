@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <mappers>
+	    <mapper resource="Maps/CustomerMap.xml"/>
+	    <mapper resource="Maps/AddressMap.xml"/>
+	    <mapper resource="Maps/CityMap.xml"/>
+        <mapper resource="Maps/CountryMap.xml"/>
+        <mapper resource="Maps/StoreMap.xml"/>
+         <mapper resource="Maps/FilmMap.xml"/>
+          <mapper resource="Maps/LanguageMap.xml"/>
+    </mappers>
+</configuration>

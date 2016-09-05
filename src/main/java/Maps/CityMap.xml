@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sakila.MybatisImpl.CityDaoSp">
+    <select id="getByID_City" parameterType="long" resultType="com.sakila.Entity.City">
+        select * from city where city_id = #{ID}
+    </select>
+    <delete id="delByID_City" parameterType="long" >
+       delete from city where city_id=#{ID}
+    </delete>
+</mapper>
